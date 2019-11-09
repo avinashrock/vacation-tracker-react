@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body{
+	margin: 0;
+	padding: 0;
+    background: #fff;
+    color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.body{
+	position: absolute;
+	top:85px;
+	left: -50px;
+	right: -10px;
+	bottom:-40px;
+	width: auto;
+	height: auto;
+	/* background-image: url(https://www.tmpresale.com/wp-content/uploads/2015/11/email-newsletters-flying-around-where-presales-really-come-from-300x169.jpg); */
+	background-size: cover;
+	-webkit-filter: blur(3px);
+	z-index: 0;
+}
+
+.grad{
+	position: absolute;
+	top: -20px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	z-index: 1;
+	opacity: 0.7;
+}
+
+.title{
+	background-color: black;
+	height:150px;
+	width:1590px;
+	font-size:30px;
+	color:white;
+	padding-left:640px;
+	padding-top:20px;
+	list-style-type: none;
+	margin-left: -50px;
+}
+
+
+
+.login{
+	position: absolute;
+	top: calc(50% - 95px);
+	left: calc(50% - 130px);
+	height: 320px;
+	width: 300px;
+	padding: 5px;
+	z-index: 2;
+    background-color:black;
+}
+
+.login input[type=text]{
+	width: 290px;
+	height: 50px;
+	background: transparent;
+	border: 1px solid grey;
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding-top: 15px;
+  	padding-left: 10px;
+  	margin-top: 30px;
+    background-color: white;
+}
+
+.login input[type=password]{
+	width: 290px;
+	height: 50px;
+	background: transparent;
+	border: 1px solid grey;
+	border-radius: 2px;
+	color:black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 10px;
+    background-color: white;
+	margin-top: 20px;
+
+}
+
+.login input[type=button]{
+	width: 290px;
+	height: 50px;
+	background: #0D94D2;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 2px;
+	color: white;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 30px;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+    color:black;
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+   color:black;
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+   color:black;
+}
+.loginButton{
+	padding-top:25px;
+	background-color: black;
+}
+h1{
+    padding-left:500px;
+    font-weight: bold;
+    padding-top: 80px;
+    color:black;
+  }
